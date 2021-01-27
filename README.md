@@ -49,4 +49,4 @@ Le rendu s'effectuera via un repos GIT. L'adresse du rendu est envoyé par mail 
 Le mail de rendu est nadia.auger@ynov.com
 Les fichiers rendus doivent contenir
   - Un README.TXT listant les membres du groupe (prénom, nom), à raison d'un par ligne.  Il liste ensuite les responsabilités effectives de chacun dans le groupe.
-Le sujet du mail doit contenir les noms des etudiants de votre groupe ainsi que le nom du projet.
+  - Le sujet du mail doit contenir les noms des etudiants de votre groupe ainsi que le nom du projet.
