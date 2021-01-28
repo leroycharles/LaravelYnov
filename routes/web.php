@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Get all published posts
+Route::get('blog', 'BlogController@getPosts');
+
+// Get posts for a given tag
+Route::get('tag/{slug}', 'BlogController@getPostsByTag');
+
+// Get posts for a given topic
+Route::get('topic/{slug}', 'BlogController@getPostsByTopic');
+
+// Find a single post
+Route::middleware('Canvas\Http\Middleware\Session')->get('{slug}', 'BlogController@findPostBySlug');
